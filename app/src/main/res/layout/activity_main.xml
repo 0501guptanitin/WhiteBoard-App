@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+android:orientation="horizontal" >
+
+
+       <Button
+           android:id="@+id/buttonUp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="8dp"
+           android:text="@string/sw" />
+
+       <Button
+           android:id="@+id/buttonDown"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginRight="8dp"
+           android:layout_weight="1"
+           android:text="@string/sm" />
+
+       <Button
+           android:id="@+id/buttonColor"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:layout_marginRight="8dp"
+           android:text="@string/color" />
+
+    <Button
+        android:id="@+id/buttonUndo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/undo" />
+
+</LinearLayout>
+
+    <me.panavtec.drawableview.DrawableView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/paintView"/>
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Whiteboard App</string>
+    <string name="undo">undo</string>
+    <string name="sm">-</string>
+    <string name="sw">+</string>
+    <string name="color">color</string>
+</resources>
